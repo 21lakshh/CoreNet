@@ -179,6 +179,9 @@ data/final_scores_embedding.json
 venv\Scripts\activate  # Windows
 source venv/bin/activate  # Linux/Mac
 
+# Ensure dependencies installed
+pip install -r requirements.txt
+
 # Run heuristic pipeline
 python pipelines/run_heuristic.py
 ```
@@ -190,8 +193,6 @@ Output:
 ### Advanced: Embedding Pipeline (Recommended)
 
 ```bash
-# Ensure ML dependencies installed
-pip install -r requirements.txt
 
 # Run embedding pipeline
 python pipelines/run_embedding.py
