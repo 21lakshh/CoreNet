@@ -1,0 +1,3767 @@
+[
+  {
+    "id": "code:fastapi/applications.py:FastAPI:50",
+    "label": "FastAPI",
+    "type": "Class",
+    "final_score": 0.94,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 1.0,
+      "line_count": 3935,
+      "param_count": 14,
+      "cyclomatic_complexity": 1828,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:__call__:1129",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.3024,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.6,
+      "complexity": 0.104,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:__init__:66",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.84,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.6,
+      "complexity": 1.0,
+      "line_count": 764,
+      "param_count": 14,
+      "cyclomatic_complexity": 428,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:add_api_route:1134",
+    "label": "add_api_route",
+    "type": "Method",
+    "final_score": 0.664,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.44,
+      "line_count": 57,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:add_api_websocket_route:1253",
+    "label": "add_api_websocket_route",
+    "type": "Method",
+    "final_score": 0.4864,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.144,
+      "line_count": 13,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:api_route:1193",
+    "label": "api_route",
+    "type": "Method",
+    "final_score": 0.832,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.72,
+      "line_count": 57,
+      "param_count": 0,
+      "cyclomatic_complexity": 8,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:build_middleware_stack:995",
+    "label": "build_middleware_stack",
+    "type": "Method",
+    "final_score": 0.7336,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.656,
+      "line_count": 22,
+      "param_count": 2,
+      "cyclomatic_complexity": 55,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:1222",
+    "label": "decorator",
+    "type": "Function",
+    "final_score": 0.5624,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.65,
+      "complexity": 0.504,
+      "line_count": 28,
+      "param_count": 0,
+      "cyclomatic_complexity": 7,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:1322",
+    "label": "decorator",
+    "type": "Function",
+    "final_score": 0.4136,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.65,
+      "complexity": 0.256,
+      "line_count": 7,
+      "param_count": 0,
+      "cyclomatic_complexity": 5,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:4540",
+    "label": "decorator",
+    "type": "Function",
+    "final_score": 0.4424,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.65,
+      "complexity": 0.304,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 7,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:4615",
+    "label": "decorator",
+    "type": "Function",
+    "final_score": 0.3896,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.65,
+      "complexity": 0.216,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 5,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:4662",
+    "label": "decorator",
+    "type": "Function",
+    "final_score": 0.4616,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.65,
+      "complexity": 0.336,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 8,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:delete:2667",
+    "label": "delete",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 324,
+      "param_count": 27,
+      "cyclomatic_complexity": 143,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:exception_handler:4621",
+    "label": "exception_handler",
+    "type": "Method",
+    "final_score": 0.6344,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.35,
+      "complexity": 0.824,
+      "line_count": 33,
+      "param_count": 4,
+      "cyclomatic_complexity": 37,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:get:1538",
+    "label": "get",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 324,
+      "param_count": 27,
+      "cyclomatic_complexity": 143,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:head:3413",
+    "label": "head",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 324,
+      "param_count": 28,
+      "cyclomatic_complexity": 143,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:include_router:1333",
+    "label": "include_router",
+    "type": "Method",
+    "final_score": 0.88,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.8,
+      "line_count": 162,
+      "param_count": 0,
+      "cyclomatic_complexity": 54,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:middleware:4575",
+    "label": "middleware",
+    "type": "Method",
+    "final_score": 0.8032,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.672,
+      "line_count": 34,
+      "param_count": 0,
+      "cyclomatic_complexity": 17,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:on_event:4546",
+    "label": "on_event",
+    "type": "Method",
+    "final_score": 0.7552,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.592,
+      "line_count": 24,
+      "param_count": 0,
+      "cyclomatic_complexity": 19,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:openapi:1043",
+    "label": "openapi",
+    "type": "Method",
+    "final_score": 0.7144,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.624,
+      "line_count": 28,
+      "param_count": 0,
+      "cyclomatic_complexity": 10,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:openapi:1081",
+    "label": "openapi",
+    "type": "Function",
+    "final_score": 0.4648,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.208,
+      "line_count": 6,
+      "param_count": 0,
+      "cyclomatic_complexity": 4,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:options:3040",
+    "label": "options",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 324,
+      "param_count": 27,
+      "cyclomatic_complexity": 143,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:patch:3786",
+    "label": "patch",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 328,
+      "param_count": 27,
+      "cyclomatic_complexity": 144,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:post:2289",
+    "label": "post",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 328,
+      "param_count": 27,
+      "cyclomatic_complexity": 144,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:put:1911",
+    "label": "put",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 328,
+      "param_count": 27,
+      "cyclomatic_complexity": 144,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:redoc_html:1120",
+    "label": "redoc_html",
+    "type": "Function",
+    "final_score": 0.412,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.12,
+      "line_count": 5,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:setup:1076",
+    "label": "setup",
+    "type": "Method",
+    "final_score": 0.7816,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.736,
+      "line_count": 42,
+      "param_count": 0,
+      "cyclomatic_complexity": 20,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:swagger_ui_html:1092",
+    "label": "swagger_ui_html",
+    "type": "Function",
+    "final_score": 0.4696,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.216,
+      "line_count": 12,
+      "param_count": 0,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:swagger_ui_redirect:1110",
+    "label": "swagger_ui_redirect",
+    "type": "Function",
+    "final_score": 0.3688,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.048,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:trace:4164",
+    "label": "trace",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 324,
+      "param_count": 27,
+      "cyclomatic_complexity": 143,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:websocket:1268",
+    "label": "websocket",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 55,
+      "param_count": 7,
+      "cyclomatic_complexity": 21,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:websocket_route:4537",
+    "label": "websocket_route",
+    "type": "Method",
+    "final_score": 0.6208,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.368,
+      "line_count": 6,
+      "param_count": 0,
+      "cyclomatic_complexity": 8,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/encoders.py:decimal_encoder:36",
+    "label": "decimal_encoder",
+    "type": "Function",
+    "final_score": 0.24,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.4,
+      "line_count": 15,
+      "param_count": 0,
+      "cyclomatic_complexity": 7,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/encoders.py:generate_encoders_by_class_tuples:87",
+    "label": "generate_encoders_by_class_tuples",
+    "type": "Function",
+    "final_score": 0.2064,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.344,
+      "line_count": 8,
+      "param_count": 4,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/encoders.py:isoformat:30",
+    "label": "isoformat",
+    "type": "Function",
+    "final_score": 0.1368,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.128,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/encoders.py:jsonable_encoder:101",
+    "label": "jsonable_encoder",
+    "type": "Function",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 234,
+      "param_count": 10,
+      "cyclomatic_complexity": 92,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/exception_handlers.py:http_exception_handler:10",
+    "label": "http_exception_handler",
+    "type": "Function",
+    "final_score": 0.3168,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.528,
+      "line_count": 6,
+      "param_count": 4,
+      "cyclomatic_complexity": 8,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exception_handlers.py:request_validation_exception_handler:19",
+    "label": "request_validation_exception_handler",
+    "type": "Function",
+    "final_score": 0.1728,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.288,
+      "line_count": 6,
+      "param_count": 0,
+      "cyclomatic_complexity": 6,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exception_handlers.py:websocket_request_validation_exception_handler:28",
+    "label": "websocket_request_validation_exception_handler",
+    "type": "Function",
+    "final_score": 0.144,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.24,
+      "line_count": 5,
+      "param_count": 0,
+      "cyclomatic_complexity": 5,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:FastAPIError:142",
+    "label": "FastAPIError",
+    "type": "Class",
+    "final_score": 0.1344,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.224,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 5,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:HTTPException:8",
+    "label": "HTTPException",
+    "type": "Class",
+    "final_score": 0.9216,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.95,
+      "complexity": 0.808,
+      "line_count": 46,
+      "param_count": 1,
+      "cyclomatic_complexity": 20,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:RequestValidationError:156",
+    "label": "RequestValidationError",
+    "type": "Class",
+    "final_score": 0.1104,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.184,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 4,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:ResponseValidationError:166",
+    "label": "ResponseValidationError",
+    "type": "Class",
+    "final_score": 0.2544,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.424,
+      "line_count": 8,
+      "param_count": 0,
+      "cyclomatic_complexity": 9,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:ValidationException:148",
+    "label": "ValidationException",
+    "type": "Class",
+    "final_score": 0.1392,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.232,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 5,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:WebSocketException:67",
+    "label": "WebSocketException",
+    "type": "Class",
+    "final_score": 0.62,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.05,
+      "complexity": 1.0,
+      "line_count": 57,
+      "param_count": 5,
+      "cyclomatic_complexity": 23,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:WebSocketRequestValidationError:162",
+    "label": "WebSocketRequestValidationError",
+    "type": "Class",
+    "final_score": 0.0728,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.05,
+      "complexity": 0.088,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:109",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.2592,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.432,
+      "line_count": 24,
+      "param_count": 0,
+      "cyclomatic_complexity": 6,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:149",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.0576,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.096,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:157",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.1104,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.184,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 4,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:167",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.1104,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.184,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 4,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:36",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.1584,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.264,
+      "line_count": 28,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__str__:171",
+    "label": "__str__",
+    "type": "Method",
+    "final_score": 0.1632,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.272,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 6,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:errors:152",
+    "label": "errors",
+    "type": "Method",
+    "final_score": 0.1128,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.088,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/middleware/asyncexitstack.py:AsyncExitStackMiddleware:7",
+    "label": "AsyncExitStackMiddleware",
+    "type": "Class",
+    "final_score": 0.2912,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.5,
+      "complexity": 0.152,
+      "line_count": 9,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/middleware/asyncexitstack.py:__call__:14",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.1624,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.25,
+      "complexity": 0.104,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/middleware/asyncexitstack.py:__init__:8",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.148,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.25,
+      "complexity": 0.08,
+      "line_count": 5,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/docs.py:get_redoc_html:160",
+    "label": "get_redoc_html",
+    "type": "Function",
+    "final_score": 0.48,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.8,
+      "line_count": 88,
+      "param_count": 0,
+      "cyclomatic_complexity": 27,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/docs.py:get_swagger_ui_html:25",
+    "label": "get_swagger_ui_html",
+    "type": "Function",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 120,
+      "param_count": 10,
+      "cyclomatic_complexity": 35,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/docs.py:get_swagger_ui_oauth2_redirect_html:255",
+    "label": "get_swagger_ui_oauth2_redirect_html",
+    "type": "Function",
+    "final_score": 0.48,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.8,
+      "line_count": 79,
+      "param_count": 0,
+      "cyclomatic_complexity": 32,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:APIKey:354",
+    "label": "APIKey",
+    "type": "Class",
+    "final_score": 0.8128,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.064,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:APIKeyIn:348",
+    "label": "APIKeyIn",
+    "type": "Class",
+    "final_score": 0.8128,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.064,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:BaseModelWithConfig:57",
+    "label": "BaseModelWithConfig",
+    "type": "Class",
+    "final_score": 0.072,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.12,
+      "line_count": 5,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Components:414",
+    "label": "Components",
+    "type": "Class",
+    "final_score": 0.144,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.24,
+      "line_count": 10,
+      "param_count": 0,
+      "cyclomatic_complexity": 4,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Config:232",
+    "label": "Config",
+    "type": "Class",
+    "final_score": 0.0288,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.048,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Config:63",
+    "label": "Config",
+    "type": "Class",
+    "final_score": 0.0288,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.048,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Contact:67",
+    "label": "Contact",
+    "type": "Class",
+    "final_score": 0.0384,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.064,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Discriminator:105",
+    "label": "Discriminator",
+    "type": "Class",
+    "final_score": 0.0576,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.096,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:EmailStr:23",
+    "label": "EmailStr",
+    "type": "Class",
+    "final_score": 0.3696,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.616,
+      "line_count": 27,
+      "param_count": 0,
+      "cyclomatic_complexity": 21,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Encoding:243",
+    "label": "Encoding",
+    "type": "Class",
+    "final_score": 0.048,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.08,
+      "line_count": 5,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Example:221",
+    "label": "Example",
+    "type": "Class",
+    "final_score": 0.1152,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.192,
+      "line_count": 9,
+      "param_count": 0,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ExternalDocumentation:118",
+    "label": "ExternalDocumentation",
+    "type": "Class",
+    "final_score": 0.0336,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.056,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:HTTPBase:360",
+    "label": "HTTPBase",
+    "type": "Class",
+    "final_score": 0.8112,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.056,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:HTTPBearer:365",
+    "label": "HTTPBearer",
+    "type": "Class",
+    "final_score": 0.8112,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.056,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Header:278",
+    "label": "Header",
+    "type": "Class",
+    "final_score": 0.0288,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.048,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Info:79",
+    "label": "Info",
+    "type": "Class",
+    "final_score": 0.0576,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.096,
+      "line_count": 7,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:License:73",
+    "label": "License",
+    "type": "Class",
+    "final_score": 0.0624,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.104,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Link:288",
+    "label": "Link",
+    "type": "Class",
+    "final_score": 0.0528,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.088,
+      "line_count": 6,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:MediaType:251",
+    "label": "MediaType",
+    "type": "Class",
+    "final_score": 0.0432,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.072,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuth2:399",
+    "label": "OAuth2",
+    "type": "Class",
+    "final_score": 0.8112,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.056,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlow:370",
+    "label": "OAuthFlow",
+    "type": "Class",
+    "final_score": 0.8112,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.056,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlowAuthorizationCode:387",
+    "label": "OAuthFlowAuthorizationCode",
+    "type": "Class",
+    "final_score": 0.8272,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.136,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlowClientCredentials:383",
+    "label": "OAuthFlowClientCredentials",
+    "type": "Class",
+    "final_score": 0.8096,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.048,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlowImplicit:375",
+    "label": "OAuthFlowImplicit",
+    "type": "Class",
+    "final_score": 0.8096,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.048,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlowPassword:379",
+    "label": "OAuthFlowPassword",
+    "type": "Class",
+    "final_score": 0.8176,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.088,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlows:392",
+    "label": "OAuthFlows",
+    "type": "Class",
+    "final_score": 0.8304,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.152,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OpenAPI:434",
+    "label": "OpenAPI",
+    "type": "Class",
+    "final_score": 0.144,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.24,
+      "line_count": 10,
+      "param_count": 0,
+      "cyclomatic_complexity": 4,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OpenIdConnect:404",
+    "label": "OpenIdConnect",
+    "type": "Class",
+    "final_score": 0.0432,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.072,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Operation:304",
+    "label": "Operation",
+    "type": "Class",
+    "final_score": 0.1536,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.256,
+      "line_count": 12,
+      "param_count": 0,
+      "cyclomatic_complexity": 4,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Parameter:273",
+    "label": "Parameter",
+    "type": "Class",
+    "final_score": 0.0336,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.056,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ParameterBase:258",
+    "label": "ParameterBase",
+    "type": "Class",
+    "final_score": 0.192,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.32,
+      "line_count": 10,
+      "param_count": 0,
+      "cyclomatic_complexity": 6,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ParameterInType:236",
+    "label": "ParameterInType",
+    "type": "Class",
+    "final_score": 0.0432,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.072,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:PathItem:320",
+    "label": "PathItem",
+    "type": "Class",
+    "final_score": 0.0864,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.144,
+      "line_count": 13,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Reference:101",
+    "label": "Reference",
+    "type": "Class",
+    "final_score": 0.0288,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.048,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:RequestBody:282",
+    "label": "RequestBody",
+    "type": "Class",
+    "final_score": 0.0384,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.064,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Response:297",
+    "label": "Response",
+    "type": "Class",
+    "final_score": 0.0432,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.072,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Schema:129",
+    "label": "Schema",
+    "type": "Class",
+    "final_score": 0.48,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.8,
+      "line_count": 67,
+      "param_count": 0,
+      "cyclomatic_complexity": 50,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:SecurityBase:343",
+    "label": "SecurityBase",
+    "type": "Class",
+    "final_score": 0.8112,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.056,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:SecuritySchemeType:336",
+    "label": "SecuritySchemeType",
+    "type": "Class",
+    "final_score": 0.8144,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.072,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Server:95",
+    "label": "Server",
+    "type": "Class",
+    "final_score": 0.0384,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.064,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ServerVariable:89",
+    "label": "ServerVariable",
+    "type": "Class",
+    "final_score": 0.0384,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.064,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Tag:428",
+    "label": "Tag",
+    "type": "Class",
+    "final_score": 0.0384,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.064,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:XML:110",
+    "label": "XML",
+    "type": "Class",
+    "final_score": 0.048,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.08,
+      "line_count": 5,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:__get_pydantic_core_schema__:50",
+    "label": "__get_pydantic_core_schema__",
+    "type": "Method",
+    "final_score": 0.1392,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.232,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 5,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:__get_pydantic_json_schema__:44",
+    "label": "__get_pydantic_json_schema__",
+    "type": "Method",
+    "final_score": 0.1392,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.232,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 5,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:__get_validators__:24",
+    "label": "__get_validators__",
+    "type": "Method",
+    "final_score": 0.0864,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.144,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:_validate:36",
+    "label": "_validate",
+    "type": "Method",
+    "final_score": 0.1608,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.168,
+      "line_count": 6,
+      "param_count": 0,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:validate:28",
+    "label": "validate",
+    "type": "Method",
+    "final_score": 0.1608,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.168,
+      "line_count": 6,
+      "param_count": 0,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:_get_openapi_operation_parameters:93",
+    "label": "_get_openapi_operation_parameters",
+    "type": "Function",
+    "final_score": 0.66,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 1.0,
+      "line_count": 70,
+      "param_count": 13,
+      "cyclomatic_complexity": 27,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:generate_operation_id:205",
+    "label": "generate_operation_id",
+    "type": "Function",
+    "final_score": 0.2016,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.336,
+      "line_count": 12,
+      "param_count": 0,
+      "cyclomatic_complexity": 6,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:generate_operation_summary:220",
+    "label": "generate_operation_summary",
+    "type": "Function",
+    "final_score": 0.0864,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.144,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_fields_from_routes:444",
+    "label": "get_fields_from_routes",
+    "type": "Function",
+    "final_score": 0.5496,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.816,
+      "line_count": 27,
+      "param_count": 5,
+      "cyclomatic_complexity": 10,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi:475",
+    "label": "get_openapi",
+    "type": "Function",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 95,
+      "param_count": 29,
+      "cyclomatic_complexity": 44,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_operation_metadata:226",
+    "label": "get_openapi_operation_metadata",
+    "type": "Function",
+    "final_score": 0.3264,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.544,
+      "line_count": 23,
+      "param_count": 0,
+      "cyclomatic_complexity": 9,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_operation_request_body:168",
+    "label": "get_openapi_operation_request_body",
+    "type": "Function",
+    "final_score": 0.4032,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.672,
+      "line_count": 34,
+      "param_count": 0,
+      "cyclomatic_complexity": 11,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_path:252",
+    "label": "get_openapi_path",
+    "type": "Function",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 182,
+      "param_count": 13,
+      "cyclomatic_complexity": 72,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_security_definitions:76",
+    "label": "get_openapi_security_definitions",
+    "type": "Function",
+    "final_score": 0.1392,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.232,
+      "line_count": 14,
+      "param_count": 0,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Body:1262",
+    "label": "Body",
+    "type": "Function",
+    "final_score": 0.68,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.5,
+      "complexity": 0.8,
+      "line_count": 315,
+      "param_count": 0,
+      "cyclomatic_complexity": 68,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Cookie:958",
+    "label": "Cookie",
+    "type": "Function",
+    "final_score": 0.68,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.5,
+      "complexity": 0.8,
+      "line_count": 292,
+      "param_count": 0,
+      "cyclomatic_complexity": 63,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Depends:2219",
+    "label": "Depends",
+    "type": "Function",
+    "final_score": 0.7712,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.5,
+      "complexity": 0.952,
+      "line_count": 44,
+      "param_count": 6,
+      "cyclomatic_complexity": 25,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/param_functions.py:File:1905",
+    "label": "File",
+    "type": "Function",
+    "final_score": 0.68,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.5,
+      "complexity": 0.8,
+      "line_count": 302,
+      "param_count": 0,
+      "cyclomatic_complexity": 65,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Form:1591",
+    "label": "Form",
+    "type": "Function",
+    "final_score": 0.68,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.5,
+      "complexity": 0.8,
+      "line_count": 302,
+      "param_count": 0,
+      "cyclomatic_complexity": 67,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Header:642",
+    "label": "Header",
+    "type": "Function",
+    "final_score": 0.68,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.5,
+      "complexity": 0.8,
+      "line_count": 303,
+      "param_count": 0,
+      "cyclomatic_complexity": 71,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Path:10",
+    "label": "Path",
+    "type": "Function",
+    "final_score": 0.8,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.5,
+      "complexity": 1.0,
+      "line_count": 309,
+      "param_count": 33,
+      "cyclomatic_complexity": 75,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Query:338",
+    "label": "Query",
+    "type": "Function",
+    "final_score": 0.68,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.5,
+      "complexity": 0.8,
+      "line_count": 292,
+      "param_count": 0,
+      "cyclomatic_complexity": 63,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Security:2279",
+    "label": "Security",
+    "type": "Function",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.5,
+      "complexity": 1.0,
+      "line_count": 66,
+      "param_count": 7,
+      "cyclomatic_complexity": 42,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:Body:478",
+    "label": "Body",
+    "type": "Class",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 109,
+      "param_count": 36,
+      "cyclomatic_complexity": 26,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:Cookie:394",
+    "label": "Cookie",
+    "type": "Class",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 78,
+      "param_count": 34,
+      "cyclomatic_complexity": 13,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:Depends:763",
+    "label": "Depends",
+    "type": "Class",
+    "final_score": 0.1872,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.312,
+      "line_count": 9,
+      "param_count": 4,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:File:679",
+    "label": "File",
+    "type": "Class",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 79,
+      "param_count": 35,
+      "cyclomatic_complexity": 16,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:Form:595",
+    "label": "Form",
+    "type": "Class",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 79,
+      "param_count": 35,
+      "cyclomatic_complexity": 16,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:Header:308",
+    "label": "Header",
+    "type": "Class",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 80,
+      "param_count": 35,
+      "cyclomatic_complexity": 16,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:Param:24",
+    "label": "Param",
+    "type": "Class",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 106,
+      "param_count": 34,
+      "cyclomatic_complexity": 26,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:ParamTypes:17",
+    "label": "ParamTypes",
+    "type": "Class",
+    "final_score": 0.0432,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.072,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:Path:138",
+    "label": "Path",
+    "type": "Class",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 80,
+      "param_count": 34,
+      "cyclomatic_complexity": 14,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:Query:224",
+    "label": "Query",
+    "type": "Class",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 78,
+      "param_count": 34,
+      "cyclomatic_complexity": 13,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:Security:776",
+    "label": "Security",
+    "type": "Class",
+    "final_score": 0.8624,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.312,
+      "line_count": 9,
+      "param_count": 6,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:141",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 78,
+      "param_count": 34,
+      "cyclomatic_complexity": 14,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:227",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 76,
+      "param_count": 34,
+      "cyclomatic_complexity": 13,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:27",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 102,
+      "param_count": 34,
+      "cyclomatic_complexity": 26,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:311",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 78,
+      "param_count": 35,
+      "cyclomatic_complexity": 16,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:397",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 76,
+      "param_count": 34,
+      "cyclomatic_complexity": 13,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:479",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 107,
+      "param_count": 36,
+      "cyclomatic_complexity": 26,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:596",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 79,
+      "param_count": 35,
+      "cyclomatic_complexity": 16,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:680",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.6,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 1.0,
+      "line_count": 79,
+      "param_count": 35,
+      "cyclomatic_complexity": 16,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:764",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.144,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.24,
+      "line_count": 5,
+      "param_count": 4,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:777",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.1872,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.312,
+      "line_count": 9,
+      "param_count": 6,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__repr__:134",
+    "label": "__repr__",
+    "type": "Method",
+    "final_score": 0.0288,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.048,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__repr__:591",
+    "label": "__repr__",
+    "type": "Method",
+    "final_score": 0.0288,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.048,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__repr__:770",
+    "label": "__repr__",
+    "type": "Method",
+    "final_score": 0.0624,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.104,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/responses.py:ORJSONResponse:35",
+    "label": "ORJSONResponse",
+    "type": "Class",
+    "final_score": 0.348,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.48,
+      "line_count": 10,
+      "param_count": 0,
+      "cyclomatic_complexity": 14,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/responses.py:UJSONResponse:22",
+    "label": "UJSONResponse",
+    "type": "Class",
+    "final_score": 0.2664,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.344,
+      "line_count": 8,
+      "param_count": 0,
+      "cyclomatic_complexity": 7,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/responses.py:render:30",
+    "label": "render",
+    "type": "Method",
+    "final_score": 0.1176,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.096,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/responses.py:render:43",
+    "label": "render",
+    "type": "Method",
+    "final_score": 0.2712,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.352,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 8,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:APIRoute:503",
+    "label": "APIRoute",
+    "type": "Class",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 150,
+      "param_count": 30,
+      "cyclomatic_complexity": 66,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:APIRouter:670",
+    "label": "APIRouter",
+    "type": "Class",
+    "final_score": 0.88,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.8,
+      "line_count": 3361,
+      "param_count": 0,
+      "cyclomatic_complexity": 1444,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:APIWebSocketRoute:463",
+    "label": "APIWebSocketRoute",
+    "type": "Class",
+    "final_score": 0.8128,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.688,
+      "line_count": 36,
+      "param_count": 0,
+      "cyclomatic_complexity": 17,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:__init__:464",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.6288,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.6,
+      "complexity": 0.648,
+      "line_count": 31,
+      "param_count": 0,
+      "cyclomatic_complexity": 12,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:__init__:504",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.84,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.6,
+      "complexity": 1.0,
+      "line_count": 129,
+      "param_count": 30,
+      "cyclomatic_complexity": 56,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:__init__:697",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.72,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.6,
+      "complexity": 0.8,
+      "line_count": 211,
+      "param_count": 0,
+      "cyclomatic_complexity": 109,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:_merge_lifespan_context:201",
+    "label": "_merge_lifespan_context",
+    "type": "Function",
+    "final_score": 0.6424,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.504,
+      "line_count": 13,
+      "param_count": 0,
+      "cyclomatic_complexity": 20,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:_prepare_response_content:153",
+    "label": "_prepare_response_content",
+    "type": "Function",
+    "final_score": 0.8968,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.928,
+      "line_count": 41,
+      "param_count": 7,
+      "cyclomatic_complexity": 26,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:add_api_route:956",
+    "label": "add_api_route",
+    "type": "Method",
+    "final_score": 0.88,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.8,
+      "line_count": 80,
+      "param_count": 0,
+      "cyclomatic_complexity": 10,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:add_api_websocket_route:1100",
+    "label": "add_api_websocket_route",
+    "type": "Method",
+    "final_score": 0.5344,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.224,
+      "line_count": 18,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:api_route:1038",
+    "label": "api_route",
+    "type": "Method",
+    "final_score": 0.832,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.72,
+      "line_count": 59,
+      "param_count": 0,
+      "cyclomatic_complexity": 8,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:app:102",
+    "label": "app",
+    "type": "Function",
+    "final_score": 0.6472,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.512,
+      "line_count": 14,
+      "param_count": 0,
+      "cyclomatic_complexity": 23,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:app:137",
+    "label": "app",
+    "type": "Function",
+    "final_score": 0.4168,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.128,
+      "line_count": 6,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:app:140",
+    "label": "app",
+    "type": "Function",
+    "final_score": 0.4024,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.104,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 2,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:app:315",
+    "label": "app",
+    "type": "Function",
+    "final_score": 0.892,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.92,
+      "line_count": 107,
+      "param_count": 3,
+      "cyclomatic_complexity": 58,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:app:441",
+    "label": "app",
+    "type": "Function",
+    "final_score": 0.6664,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.544,
+      "line_count": 18,
+      "param_count": 0,
+      "cyclomatic_complexity": 10,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:app:99",
+    "label": "app",
+    "type": "Function",
+    "final_score": 0.6616,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.536,
+      "line_count": 17,
+      "param_count": 0,
+      "cyclomatic_complexity": 23,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:1068",
+    "label": "decorator",
+    "type": "Function",
+    "final_score": 0.5672,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.65,
+      "complexity": 0.512,
+      "line_count": 29,
+      "param_count": 0,
+      "cyclomatic_complexity": 7,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:1180",
+    "label": "decorator",
+    "type": "Function",
+    "final_score": 0.3992,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.65,
+      "complexity": 0.232,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 5,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:1191",
+    "label": "decorator",
+    "type": "Function",
+    "final_score": 0.4424,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.65,
+      "complexity": 0.304,
+      "line_count": 3,
+      "param_count": 0,
+      "cyclomatic_complexity": 7,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:4510",
+    "label": "decorator",
+    "type": "Function",
+    "final_score": 0.4136,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.65,
+      "complexity": 0.256,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 6,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:944",
+    "label": "decorator",
+    "type": "Function",
+    "final_score": 0.4712,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.65,
+      "complexity": 0.352,
+      "line_count": 9,
+      "param_count": 0,
+      "cyclomatic_complexity": 7,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:delete:2582",
+    "label": "delete",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 327,
+      "param_count": 27,
+      "cyclomatic_complexity": 143,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:get:1441",
+    "label": "get",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 327,
+      "param_count": 27,
+      "cyclomatic_complexity": 143,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:get_request_handler:292",
+    "label": "get_request_handler",
+    "type": "Function",
+    "final_score": 0.7,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.25,
+      "complexity": 1.0,
+      "line_count": 130,
+      "param_count": 17,
+      "cyclomatic_complexity": 69,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:get_route_handler:646",
+    "label": "get_route_handler",
+    "type": "Method",
+    "final_score": 0.412,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.32,
+      "line_count": 15,
+      "param_count": 0,
+      "cyclomatic_complexity": 5,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:get_websocket_app:436",
+    "label": "get_websocket_app",
+    "type": "Function",
+    "final_score": 0.6904,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.584,
+      "line_count": 23,
+      "param_count": 0,
+      "cyclomatic_complexity": 10,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:head:3336",
+    "label": "head",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 331,
+      "param_count": 27,
+      "cyclomatic_complexity": 144,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:include_router:1197",
+    "label": "include_router",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 221,
+      "param_count": 13,
+      "cyclomatic_complexity": 98,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:matches:496",
+    "label": "matches",
+    "type": "Method",
+    "final_score": 0.5032,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.272,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 6,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:matches:663",
+    "label": "matches",
+    "type": "Method",
+    "final_score": 0.5032,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.272,
+      "line_count": 4,
+      "param_count": 0,
+      "cyclomatic_complexity": 6,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:merged_lifespan:204",
+    "label": "merged_lifespan",
+    "type": "Function",
+    "final_score": 0.628,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.48,
+      "line_count": 10,
+      "param_count": 0,
+      "cyclomatic_complexity": 12,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:on_event:4482",
+    "label": "on_event",
+    "type": "Method",
+    "final_score": 0.7696,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.616,
+      "line_count": 27,
+      "param_count": 0,
+      "cyclomatic_complexity": 25,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:options:2959",
+    "label": "options",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 327,
+      "param_count": 27,
+      "cyclomatic_complexity": 143,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:patch:3718",
+    "label": "patch",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 331,
+      "param_count": 27,
+      "cyclomatic_complexity": 144,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:post:2200",
+    "label": "post",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 331,
+      "param_count": 27,
+      "cyclomatic_complexity": 144,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:put:1818",
+    "label": "put",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 331,
+      "param_count": 27,
+      "cyclomatic_complexity": 144,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:request_response:88",
+    "label": "request_response",
+    "type": "Function",
+    "final_score": 0.7144,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.624,
+      "line_count": 28,
+      "param_count": 0,
+      "cyclomatic_complexity": 31,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:route:937",
+    "label": "route",
+    "type": "Method",
+    "final_score": 0.6688,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.448,
+      "line_count": 16,
+      "param_count": 0,
+      "cyclomatic_complexity": 8,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:run_endpoint_function:279",
+    "label": "run_endpoint_function",
+    "type": "Function",
+    "final_score": 0.5416,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 0.336,
+      "line_count": 7,
+      "param_count": 0,
+      "cyclomatic_complexity": 7,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:serialize_response:218",
+    "label": "serialize_response",
+    "type": "Function",
+    "final_score": 0.94,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.85,
+      "complexity": 1.0,
+      "line_count": 55,
+      "param_count": 12,
+      "cyclomatic_complexity": 28,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:trace:4100",
+    "label": "trace",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 331,
+      "param_count": 27,
+      "cyclomatic_complexity": 144,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:websocket:1121",
+    "label": "websocket",
+    "type": "Method",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 54,
+      "param_count": 7,
+      "cyclomatic_complexity": 21,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:websocket_route:1188",
+    "label": "websocket_route",
+    "type": "Method",
+    "final_score": 0.6208,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.368,
+      "line_count": 6,
+      "param_count": 0,
+      "cyclomatic_complexity": 8,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:websocket_session:129",
+    "label": "websocket_session",
+    "type": "Function",
+    "final_score": 0.6784,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.464,
+      "line_count": 13,
+      "param_count": 0,
+      "cyclomatic_complexity": 9,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyBase:10",
+    "label": "APIKeyBase",
+    "type": "Class",
+    "final_score": 0.8624,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.312,
+      "line_count": 9,
+      "param_count": 0,
+      "cyclomatic_complexity": 6,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyCookie:202",
+    "label": "APIKeyCookie",
+    "type": "Class",
+    "final_score": 0.968,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.84,
+      "line_count": 66,
+      "param_count": 1,
+      "cyclomatic_complexity": 20,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyHeader:114",
+    "label": "APIKeyHeader",
+    "type": "Class",
+    "final_score": 0.968,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.84,
+      "line_count": 66,
+      "param_count": 1,
+      "cyclomatic_complexity": 20,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyQuery:22",
+    "label": "APIKeyQuery",
+    "type": "Class",
+    "final_score": 0.968,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.84,
+      "line_count": 70,
+      "param_count": 1,
+      "cyclomatic_complexity": 20,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__call__:109",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.2536,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.056,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__call__:197",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.2536,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.056,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__call__:285",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.2536,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.056,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__init__:146",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.7912,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.952,
+      "line_count": 44,
+      "param_count": 7,
+      "cyclomatic_complexity": 11,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__init__:234",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.7912,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.952,
+      "line_count": 44,
+      "param_count": 7,
+      "cyclomatic_complexity": 11,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__init__:54",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.8104,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.984,
+      "line_count": 48,
+      "param_count": 7,
+      "cyclomatic_complexity": 11,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:check_api_key:11",
+    "label": "check_api_key",
+    "type": "Method",
+    "final_score": 0.5072,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.8,
+      "complexity": 0.312,
+      "line_count": 9,
+      "param_count": 0,
+      "cyclomatic_complexity": 6,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/base.py:SecurityBase:3",
+    "label": "SecurityBase",
+    "type": "Class",
+    "final_score": 0.8112,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.056,
+      "line_count": 2,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPAuthorizationCredentials:28",
+    "label": "HTTPAuthorizationCredentials",
+    "type": "Class",
+    "final_score": 0.928,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.64,
+      "line_count": 30,
+      "param_count": 0,
+      "cyclomatic_complexity": 10,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBase:68",
+    "label": "HTTPBase",
+    "type": "Class",
+    "final_score": 0.9584,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.792,
+      "line_count": 24,
+      "param_count": 7,
+      "cyclomatic_complexity": 17,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBasic:96",
+    "label": "HTTPBasic",
+    "type": "Class",
+    "final_score": 0.968,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.84,
+      "line_count": 100,
+      "param_count": 1,
+      "cyclomatic_complexity": 50,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBasicCredentials:15",
+    "label": "HTTPBasicCredentials",
+    "type": "Class",
+    "final_score": 0.8448,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.224,
+      "line_count": 8,
+      "param_count": 0,
+      "cyclomatic_complexity": 4,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBearer:219",
+    "label": "HTTPBearer",
+    "type": "Class",
+    "final_score": 0.968,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.84,
+      "line_count": 82,
+      "param_count": 1,
+      "cyclomatic_complexity": 44,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPDigest:323",
+    "label": "HTTPDigest",
+    "type": "Class",
+    "final_score": 0.968,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.84,
+      "line_count": 80,
+      "param_count": 1,
+      "cyclomatic_complexity": 38,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:186",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.724,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.84,
+      "line_count": 30,
+      "param_count": 10,
+      "cyclomatic_complexity": 26,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:300",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.604,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.64,
+      "line_count": 20,
+      "param_count": 2,
+      "cyclomatic_complexity": 17,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:402",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.604,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.64,
+      "line_count": 20,
+      "param_count": 2,
+      "cyclomatic_complexity": 17,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:81",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.5656,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.576,
+      "line_count": 12,
+      "param_count": 2,
+      "cyclomatic_complexity": 13,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:129",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.82,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 1.0,
+      "line_count": 50,
+      "param_count": 7,
+      "cyclomatic_complexity": 11,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:251",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.7816,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.936,
+      "line_count": 42,
+      "param_count": 7,
+      "cyclomatic_complexity": 17,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:355",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.772,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.92,
+      "line_count": 40,
+      "param_count": 6,
+      "cyclomatic_complexity": 11,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:69",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.4648,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.408,
+      "line_count": 11,
+      "param_count": 7,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2:307",
+    "label": "OAuth2",
+    "type": "Class",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 71,
+      "param_count": 7,
+      "cyclomatic_complexity": 38,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2AuthorizationCodeBearer:502",
+    "label": "OAuth2AuthorizationCodeBearer",
+    "type": "Class",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 100,
+      "param_count": 9,
+      "cyclomatic_complexity": 37,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2PasswordBearer:390",
+    "label": "OAuth2PasswordBearer",
+    "type": "Class",
+    "final_score": 1.0,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 1.0,
+      "line_count": 101,
+      "param_count": 8,
+      "cyclomatic_complexity": 44,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2PasswordRequestForm:15",
+    "label": "OAuth2PasswordRequestForm",
+    "type": "Class",
+    "final_score": 0.968,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.84,
+      "line_count": 117,
+      "param_count": 1,
+      "cyclomatic_complexity": 100,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2PasswordRequestFormStrict:151",
+    "label": "OAuth2PasswordRequestFormStrict",
+    "type": "Class",
+    "final_score": 0.968,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.84,
+      "line_count": 134,
+      "param_count": 1,
+      "cyclomatic_complexity": 124,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:SecurityScopes:612",
+    "label": "SecurityScopes",
+    "type": "Class",
+    "final_score": 0.9472,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 1.0,
+      "complexity": 0.736,
+      "line_count": 37,
+      "param_count": 3,
+      "cyclomatic_complexity": 8,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__call__:378",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.4552,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.392,
+      "line_count": 9,
+      "param_count": 0,
+      "cyclomatic_complexity": 8,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__call__:487",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.5176,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.496,
+      "line_count": 12,
+      "param_count": 0,
+      "cyclomatic_complexity": 11,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__call__:597",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.5176,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.496,
+      "line_count": 12,
+      "param_count": 0,
+      "cyclomatic_complexity": 11,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:215",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.82,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 1.0,
+      "line_count": 85,
+      "param_count": 8,
+      "cyclomatic_complexity": 32,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:320",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.82,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 1.0,
+      "line_count": 51,
+      "param_count": 7,
+      "cyclomatic_complexity": 16,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:399",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.82,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 1.0,
+      "line_count": 81,
+      "param_count": 8,
+      "cyclomatic_complexity": 22,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:508",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.82,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 1.0,
+      "line_count": 82,
+      "param_count": 9,
+      "cyclomatic_complexity": 23,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:60",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.82,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 1.0,
+      "line_count": 84,
+      "param_count": 9,
+      "cyclomatic_complexity": 41,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:625",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.4936,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.456,
+      "line_count": 27,
+      "param_count": 3,
+      "cyclomatic_complexity": 3,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/open_id_connect_url.py:OpenIdConnect:10",
+    "label": "OpenIdConnect",
+    "type": "Class",
+    "final_score": 0.92,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.8,
+      "complexity": 1.0,
+      "line_count": 66,
+      "param_count": 7,
+      "cyclomatic_complexity": 25,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/security/open_id_connect_url.py:__call__:74",
+    "label": "__call__",
+    "type": "Method",
+    "final_score": 0.4552,
+    "classification": "MIXED",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 0.392,
+      "line_count": 9,
+      "param_count": 0,
+      "cyclomatic_complexity": 8,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/open_id_connect_url.py:__init__:16",
+    "label": "__init__",
+    "type": "Method",
+    "final_score": 0.82,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.55,
+      "complexity": 1.0,
+      "line_count": 51,
+      "param_count": 7,
+      "cyclomatic_complexity": 16,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/security/utils.py:get_authorization_scheme_param:3",
+    "label": "get_authorization_scheme_param",
+    "type": "Function",
+    "final_score": 0.2568,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.328,
+      "line_count": 6,
+      "param_count": 0,
+      "cyclomatic_complexity": 7,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:create_cloned_field:108",
+    "label": "create_cloned_field",
+    "type": "Function",
+    "final_score": 0.66,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 1.0,
+      "line_count": 50,
+      "param_count": 5,
+      "cyclomatic_complexity": 64,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:create_model_field:62",
+    "label": "create_model_field",
+    "type": "Function",
+    "final_score": 0.6264,
+    "classification": "CORE",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.944,
+      "line_count": 43,
+      "param_count": 14,
+      "cyclomatic_complexity": 28,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:deep_dict_update:187",
+    "label": "deep_dict_update",
+    "type": "Function",
+    "final_score": 0.42,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.6,
+      "line_count": 15,
+      "param_count": 2,
+      "cyclomatic_complexity": 10,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:generate_operation_id_for_path:164",
+    "label": "generate_operation_id_for_path",
+    "type": "Function",
+    "final_score": 0.2016,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.336,
+      "line_count": 12,
+      "param_count": 0,
+      "cyclomatic_complexity": 6,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:generate_unique_id:179",
+    "label": "generate_unique_id",
+    "type": "Function",
+    "final_score": 0.12,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.2,
+      "line_count": 5,
+      "param_count": 0,
+      "cyclomatic_complexity": 4,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:get_path_param_names:58",
+    "label": "get_path_param_names",
+    "type": "Function",
+    "final_score": 0.0288,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.048,
+      "line_count": 1,
+      "param_count": 0,
+      "cyclomatic_complexity": 1,
+      "has_docstring": false
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:get_value_or_default:205",
+    "label": "get_value_or_default",
+    "type": "Function",
+    "final_score": 0.4224,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.0,
+      "complexity": 0.704,
+      "line_count": 13,
+      "param_count": 6,
+      "cyclomatic_complexity": 10,
+      "has_docstring": true
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:is_body_allowed_for_status_code:41",
+    "label": "is_body_allowed_for_status_code",
+    "type": "Function",
+    "final_score": 0.3144,
+    "classification": "UTILITY",
+    "breakdown": {
+      "heuristic": 0.15,
+      "complexity": 0.424,
+      "line_count": 13,
+      "param_count": 0,
+      "cyclomatic_complexity": 8,
+      "has_docstring": false
+    }
+  }
+]

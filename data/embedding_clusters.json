@@ -1,0 +1,4394 @@
+[
+  {
+    "id": "code:fastapi/applications.py:FastAPI:50",
+    "label": "FastAPI",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 1828,
+      "fan_in": 37,
+      "fan_out": 35,
+      "has_decorator": true,
+      "decorators": [
+        "app.get",
+        "app.websocket",
+        "app.get",
+        "app.put",
+        "app.post",
+        "app.delete",
+        "app.options",
+        "app.head",
+        "app.patch",
+        "app.trace",
+        "deprecated",
+        "app.middleware",
+        "app.exception_handler"
+      ]
+    },
+    "pca_coords": [
+      6.119217943060597,
+      -0.7995661318733778
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:__call__:1129",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 25,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.7033340831534325,
+      0.7891146028517843
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:__init__:66",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 428,
+      "fan_in": 68,
+      "fan_out": 9,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      5.943739551713935,
+      -0.8751114761053284
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:add_api_route:1134",
+    "label": "add_api_route",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 8,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.339069793789581,
+      -0.47533302528727306
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:add_api_websocket_route:1253",
+    "label": "add_api_websocket_route",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 8,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -3.1614869781640493,
+      3.3394454370231155
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:api_route:1193",
+    "label": "api_route",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 11,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.4480216918541045,
+      -0.6222418781527771
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:build_middleware_stack:995",
+    "label": "build_middleware_stack",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 55,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.729794727779258,
+      -0.46263217236707016
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:1222",
+    "label": "decorator",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 7,
+      "fan_in": 21,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      9.39212645194915,
+      -1.1494290602696768
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:1322",
+    "label": "decorator",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 5,
+      "fan_in": 21,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.475619808266297,
+      2.7144841877618773
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:4540",
+    "label": "decorator",
+    "type": "Function",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 7,
+      "fan_in": 21,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.823223542354539,
+      2.256426137898814
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:4615",
+    "label": "decorator",
+    "type": "Function",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 5,
+      "fan_in": 21,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.657893161677454,
+      -1.47710642366468
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:4662",
+    "label": "decorator",
+    "type": "Function",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 21,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.054044464305519,
+      -2.671742878766273
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:delete:2667",
+    "label": "delete",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 143,
+      "fan_in": 3,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.delete"
+      ]
+    },
+    "pca_coords": [
+      6.027770973409692,
+      -1.0266871223117868
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:exception_handler:4621",
+    "label": "exception_handler",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 37,
+      "fan_in": 2,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.exception_handler"
+      ]
+    },
+    "pca_coords": [
+      4.594727079824559,
+      0.06348355052201242
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:get:1538",
+    "label": "get",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 143,
+      "fan_in": 46,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      6.042856463027136,
+      -1.021485262120953
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:head:3413",
+    "label": "head",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 143,
+      "fan_in": 3,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.head"
+      ]
+    },
+    "pca_coords": [
+      5.9494358924925175,
+      -0.9581832236733796
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:include_router:1333",
+    "label": "include_router",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 54,
+      "fan_in": 12,
+      "fan_out": 4,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.277212099352952,
+      -0.7203128351226288
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:middleware:4575",
+    "label": "middleware",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 17,
+      "fan_in": 1,
+      "fan_out": 3,
+      "has_decorator": true,
+      "decorators": [
+        "app.middleware"
+      ]
+    },
+    "pca_coords": [
+      4.536056118155417,
+      0.4047373955803848
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:on_event:4546",
+    "label": "on_event",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 19,
+      "fan_in": 3,
+      "fan_out": 1,
+      "has_decorator": true,
+      "decorators": [
+        "deprecated"
+      ]
+    },
+    "pca_coords": [
+      -1.0404734831369664,
+      2.1135139561260337
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:openapi:1043",
+    "label": "openapi",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 10,
+      "fan_in": 3,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.595593406836129,
+      -0.6698131496860301
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:openapi:1081",
+    "label": "openapi",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 4,
+      "fan_in": 3,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -4.329460587072004,
+      2.2752649703476653
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:options:3040",
+    "label": "options",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 143,
+      "fan_in": 3,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.options"
+      ]
+    },
+    "pca_coords": [
+      5.945928604840727,
+      -0.95464190729162
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:patch:3786",
+    "label": "patch",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 144,
+      "fan_in": 3,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.patch"
+      ]
+    },
+    "pca_coords": [
+      6.030586403808061,
+      -1.0295248914896307
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:post:2289",
+    "label": "post",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 144,
+      "fan_in": 7,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.post"
+      ]
+    },
+    "pca_coords": [
+      6.038191989091129,
+      -1.0204307664461147
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:put:1911",
+    "label": "put",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 144,
+      "fan_in": 3,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.put"
+      ]
+    },
+    "pca_coords": [
+      6.031319653166628,
+      -1.0274633743585693
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:redoc_html:1120",
+    "label": "redoc_html",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 2,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.549367141193259,
+      1.7901289276336463
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:setup:1076",
+    "label": "setup",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 20,
+      "fan_in": 1,
+      "fan_out": 9,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.534195073986598,
+      -0.6856629608604888
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:swagger_ui_html:1092",
+    "label": "swagger_ui_html",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 2,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      0.8168561287117178,
+      1.7942700441194723
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:swagger_ui_redirect:1110",
+    "label": "swagger_ui_redirect",
+    "type": "Function",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 2,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.55635714617471,
+      -6.139327102927462
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:trace:4164",
+    "label": "trace",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 143,
+      "fan_in": 3,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.trace"
+      ]
+    },
+    "pca_coords": [
+      5.939018383947534,
+      -0.9560908372306788
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:websocket:1268",
+    "label": "websocket",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 21,
+      "fan_in": 4,
+      "fan_out": 5,
+      "has_decorator": true,
+      "decorators": [
+        "app.websocket"
+      ]
+    },
+    "pca_coords": [
+      5.595866938506197,
+      -0.6144809402371088
+    ]
+  },
+  {
+    "id": "code:fastapi/applications.py:websocket_route:4537",
+    "label": "websocket_route",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 3,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.512570219466445,
+      2.261977103730031
+    ]
+  },
+  {
+    "id": "code:fastapi/encoders.py:decimal_encoder:36",
+    "label": "decimal_encoder",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 7,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -1.9238342917497133,
+      3.2480361046337367
+    ]
+  },
+  {
+    "id": "code:fastapi/encoders.py:generate_encoders_by_class_tuples:87",
+    "label": "generate_encoders_by_class_tuples",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -2.7303274382106224,
+      3.660336518630241
+    ]
+  },
+  {
+    "id": "code:fastapi/encoders.py:isoformat:30",
+    "label": "isoformat",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.670844505409458,
+      -0.6452960495553024
+    ]
+  },
+  {
+    "id": "code:fastapi/encoders.py:jsonable_encoder:101",
+    "label": "jsonable_encoder",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 92,
+      "fan_in": 7,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.192545497919294,
+      -0.6881461890856299
+    ]
+  },
+  {
+    "id": "code:fastapi/exception_handlers.py:http_exception_handler:10",
+    "label": "http_exception_handler",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 0,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -3.836655322318357,
+      3.5627606474793656
+    ]
+  },
+  {
+    "id": "code:fastapi/exception_handlers.py:request_validation_exception_handler:19",
+    "label": "request_validation_exception_handler",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 6,
+      "fan_in": 0,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.585594077346227,
+      2.4745756631057163
+    ]
+  },
+  {
+    "id": "code:fastapi/exception_handlers.py:websocket_request_validation_exception_handler:28",
+    "label": "websocket_request_validation_exception_handler",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 5,
+      "fan_in": 0,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.7039977497114585,
+      0.17112292309741983
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:FastAPIError:142",
+    "label": "FastAPIError",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 5,
+      "fan_in": 6,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.367454550411432,
+      -3.986584566215717
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:HTTPException:8",
+    "label": "HTTPException",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 20,
+      "fan_in": 20,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      5.135031843321137,
+      -0.3724896319228951
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:RequestValidationError:156",
+    "label": "RequestValidationError",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 4,
+      "fan_in": 3,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.41142700751075,
+      -2.0345412036519783
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:ResponseValidationError:166",
+    "label": "ResponseValidationError",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 9,
+      "fan_in": 2,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -2.4344626856948275,
+      3.2945355690619356
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:ValidationException:148",
+    "label": "ValidationException",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 5,
+      "fan_in": 1,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.9421097630211195,
+      -0.5817392378370289
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:WebSocketException:67",
+    "label": "WebSocketException",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 23,
+      "fan_in": 0,
+      "fan_out": 5,
+      "has_decorator": true,
+      "decorators": [
+        "app.websocket"
+      ]
+    },
+    "pca_coords": [
+      4.977707883184146,
+      -0.07113135157482317
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:WebSocketRequestValidationError:162",
+    "label": "WebSocketRequestValidationError",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 2,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.430031171856286,
+      -2.1971397331350757
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:109",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 6,
+      "fan_in": 68,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      1.505410957375023,
+      1.4534880527647742
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:149",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.05444732240159,
+      -3.153997461591403
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:157",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 4,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -4.475827471255847,
+      -2.5249731464545215
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:167",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 4,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -4.889663215633583,
+      -2.5874165696189992
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:36",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 68,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      1.1050967225185602,
+      1.440180979857302
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__str__:171",
+    "label": "__str__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 6,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.656412390707981,
+      0.6087601133935074
+    ]
+  },
+  {
+    "id": "code:fastapi/exceptions.py:errors:152",
+    "label": "errors",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 3,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.586532884173983,
+      3.400493042432109
+    ]
+  },
+  {
+    "id": "code:fastapi/middleware/asyncexitstack.py:AsyncExitStackMiddleware:7",
+    "label": "AsyncExitStackMiddleware",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 0,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -2.3980119400791136,
+      3.314478659750408
+    ]
+  },
+  {
+    "id": "code:fastapi/middleware/asyncexitstack.py:__call__:14",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 25,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.373545666294657,
+      -0.13139006078445656
+    ]
+  },
+  {
+    "id": "code:fastapi/middleware/asyncexitstack.py:__init__:8",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 68,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -3.0065735316143223,
+      -0.6229527905883674
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/docs.py:get_redoc_html:160",
+    "label": "get_redoc_html",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 27,
+      "fan_in": 3,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.663968865345398,
+      -0.6280193649887705
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/docs.py:get_swagger_ui_html:25",
+    "label": "get_swagger_ui_html",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 35,
+      "fan_in": 3,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.777256020332,
+      -0.5836442727209616
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/docs.py:get_swagger_ui_oauth2_redirect_html:255",
+    "label": "get_swagger_ui_oauth2_redirect_html",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 32,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.466557685840172,
+      -0.5295421159303257
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:APIKey:354",
+    "label": "APIKey",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 6,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.174298461318399,
+      -3.535856500556076
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:APIKeyIn:348",
+    "label": "APIKeyIn",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.5387360404542845,
+      -3.4598100155588742
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:BaseModelWithConfig:57",
+    "label": "BaseModelWithConfig",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.39274313545582,
+      -3.5876869462861998
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Components:414",
+    "label": "Components",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 4,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      0.7697811287194836,
+      3.2597417813757708
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Config:232",
+    "label": "Config",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 0,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.735013513119397,
+      4.935420242314303
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Config:63",
+    "label": "Config",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 0,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.735013513119397,
+      4.935420242314303
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Contact:67",
+    "label": "Contact",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.897228648805674,
+      -1.6467926783962483
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Discriminator:105",
+    "label": "Discriminator",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.68479618551151,
+      -3.5388490024422743
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:EmailStr:23",
+    "label": "EmailStr",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 21,
+      "fan_in": 1,
+      "fan_out": 6,
+      "has_decorator": true,
+      "decorators": [
+        "classmethod",
+        "classmethod",
+        "classmethod",
+        "classmethod",
+        "classmethod"
+      ]
+    },
+    "pca_coords": [
+      4.042563360782085,
+      0.6770326996358003
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Encoding:243",
+    "label": "Encoding",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.364951284893688,
+      3.1725454682690972
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Example:221",
+    "label": "Example",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.691600557387157,
+      3.0885390650271938
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ExternalDocumentation:118",
+    "label": "ExternalDocumentation",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.14056289574236,
+      -1.7809459197338045
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:HTTPBase:360",
+    "label": "HTTPBase",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 2,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.758596197733423,
+      -5.52959410773011
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:HTTPBearer:365",
+    "label": "HTTPBearer",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.701169243615665,
+      -2.092898073527995
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Header:278",
+    "label": "Header",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 2,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.197590584935439,
+      4.0664690065728895
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Info:79",
+    "label": "Info",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.439188924105865,
+      3.4239616300304156
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:License:73",
+    "label": "License",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.48161148896889,
+      -1.5449143037249413
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Link:288",
+    "label": "Link",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.8805073260292655,
+      2.7402786299425137
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:MediaType:251",
+    "label": "MediaType",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.811161440983724,
+      2.652153272352951
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuth2:399",
+    "label": "OAuth2",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 3,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.578211854396296,
+      -5.864917682274158
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlow:370",
+    "label": "OAuthFlow",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.554158212587042,
+      -1.9169321612769992
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlowAuthorizationCode:387",
+    "label": "OAuthFlowAuthorizationCode",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.292541599253592,
+      -3.4177773988338984
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlowClientCredentials:383",
+    "label": "OAuthFlowClientCredentials",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.859501592412185,
+      -3.1343181593925804
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlowImplicit:375",
+    "label": "OAuthFlowImplicit",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.170550603319995,
+      -3.1332980118078897
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlowPassword:379",
+    "label": "OAuthFlowPassword",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.003092493202438,
+      -2.73092805326373
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlows:392",
+    "label": "OAuthFlows",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.27454716420452,
+      1.563280599922347
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OpenAPI:434",
+    "label": "OpenAPI",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 4,
+      "fan_in": 50,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -1.9387829425273346,
+      3.2847295497014324
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OpenIdConnect:404",
+    "label": "OpenIdConnect",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.089645385758715,
+      -4.113197685328792
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Operation:304",
+    "label": "Operation",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 4,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -0.816036302610292,
+      3.0084918976683377
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Parameter:273",
+    "label": "Parameter",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.160536680253124,
+      -2.488596706803422
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ParameterBase:258",
+    "label": "ParameterBase",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 6,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -1.8910013841195752,
+      3.3622185842338284
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ParameterInType:236",
+    "label": "ParameterInType",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.471358554994318,
+      -4.860112967019251
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:PathItem:320",
+    "label": "PathItem",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -2.1918724804331364,
+      2.9668021649380623
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Reference:101",
+    "label": "Reference",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.690105257254957,
+      4.471376621560366
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:RequestBody:282",
+    "label": "RequestBody",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.669860563756622,
+      -4.087437770111434
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Response:297",
+    "label": "Response",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.752353546612241,
+      0.858509660520628
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Schema:129",
+    "label": "Schema",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 50,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.964127609989893,
+      -0.8275858789428271
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:SecurityBase:343",
+    "label": "SecurityBase",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.53300024824149,
+      -4.478085603431096
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:SecuritySchemeType:336",
+    "label": "SecuritySchemeType",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.159579076986809,
+      -5.260268283703036
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Server:95",
+    "label": "Server",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.948073080522798,
+      -2.3910696737175083
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ServerVariable:89",
+    "label": "ServerVariable",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.34089892420194,
+      -1.009179602840217
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Tag:428",
+    "label": "Tag",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.371033101719737,
+      -1.6088598014918594
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:XML:110",
+    "label": "XML",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.962702146807594,
+      2.5961430365449885
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:__get_pydantic_core_schema__:50",
+    "label": "__get_pydantic_core_schema__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 5,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": true,
+      "decorators": [
+        "classmethod"
+      ]
+    },
+    "pca_coords": [
+      -7.8776633313056665,
+      -3.231274028462194
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:__get_pydantic_json_schema__:44",
+    "label": "__get_pydantic_json_schema__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 5,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": true,
+      "decorators": [
+        "classmethod"
+      ]
+    },
+    "pca_coords": [
+      -7.323258751196576,
+      -3.471903345384687
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:__get_validators__:24",
+    "label": "__get_validators__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 1,
+      "fan_out": 2,
+      "has_decorator": true,
+      "decorators": [
+        "classmethod"
+      ]
+    },
+    "pca_coords": [
+      -3.05009782266737,
+      -3.4696373705499743
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:_validate:36",
+    "label": "_validate",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": true,
+      "decorators": [
+        "classmethod"
+      ]
+    },
+    "pca_coords": [
+      -6.972610391604801,
+      1.7524961179421543
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:validate:28",
+    "label": "validate",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 2,
+      "fan_out": 1,
+      "has_decorator": true,
+      "decorators": [
+        "classmethod"
+      ]
+    },
+    "pca_coords": [
+      -7.505368778550869,
+      -0.5019533782075309
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:_get_openapi_operation_parameters:93",
+    "label": "_get_openapi_operation_parameters",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 27,
+      "fan_in": 1,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.073240738048349,
+      -0.6215186458875626
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:generate_operation_id:205",
+    "label": "generate_operation_id",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 6,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -3.3456251054145034,
+      3.802691521372338
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:generate_operation_summary:220",
+    "label": "generate_operation_summary",
+    "type": "Function",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.6868102026136675,
+      -3.0477536484840315
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_fields_from_routes:444",
+    "label": "get_fields_from_routes",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 10,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.447180942399099,
+      -0.5081805865627904
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi:475",
+    "label": "get_openapi",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 44,
+      "fan_in": 2,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.365698067361702,
+      -0.7111946773096668
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_operation_metadata:226",
+    "label": "get_openapi_operation_metadata",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 9,
+      "fan_in": 1,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      3.811746036606477,
+      1.720104587107738
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_operation_request_body:168",
+    "label": "get_openapi_operation_request_body",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 11,
+      "fan_in": 1,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.212653551055184,
+      -0.47911438465853695
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_path:252",
+    "label": "get_openapi_path",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 72,
+      "fan_in": 1,
+      "fan_out": 8,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.201276153222554,
+      -0.43967863224632553
+    ]
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_security_definitions:76",
+    "label": "get_openapi_security_definitions",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 1,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -0.8679492973376565,
+      2.9868917982691308
+    ]
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Body:1262",
+    "label": "Body",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 68,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.55011115683405,
+      -0.6954702882957572
+    ]
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Cookie:958",
+    "label": "Cookie",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 63,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.3846815942963175,
+      -0.7210485582275754
+    ]
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Depends:2219",
+    "label": "Depends",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 25,
+      "fan_in": 32,
+      "fan_out": 3,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      5.450532981007717,
+      -0.6169882586035415
+    ]
+  },
+  {
+    "id": "code:fastapi/param_functions.py:File:1905",
+    "label": "File",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 65,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.064355632269747,
+      -0.6361758113106767
+    ]
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Form:1591",
+    "label": "Form",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 67,
+      "fan_in": 6,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.068979617944268,
+      -0.6174090721215053
+    ]
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Header:642",
+    "label": "Header",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 71,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.387785743162976,
+      -0.7228080042073707
+    ]
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Path:10",
+    "label": "Path",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 75,
+      "fan_in": 1,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      5.228659111622761,
+      -0.7226005525070907
+    ]
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Query:338",
+    "label": "Query",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 63,
+      "fan_in": 1,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.373672581183026,
+      -0.7208458105867633
+    ]
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Security:2279",
+    "label": "Security",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 42,
+      "fan_in": 2,
+      "fan_out": 4,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      5.6503584857546025,
+      -0.8302418291556439
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:Body:478",
+    "label": "Body",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 26,
+      "fan_in": 2,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.9557913452916855,
+      -0.9261092928699134
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:Cookie:394",
+    "label": "Cookie",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 13,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.687772088755275,
+      -0.7746045354484212
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:Depends:763",
+    "label": "Depends",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 33,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -3.9934193256738397,
+      3.4784051115194443
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:File:679",
+    "label": "File",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 16,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.850276753635331,
+      -0.8586628175029052
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:Form:595",
+    "label": "Form",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 16,
+      "fan_in": 6,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.835955864676011,
+      -0.8446300238235883
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:Header:308",
+    "label": "Header",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 16,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.588735117707723,
+      -0.7404696491957239
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:Param:24",
+    "label": "Param",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 26,
+      "fan_in": 0,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.735285191366979,
+      -0.8093690138268871
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:ParamTypes:17",
+    "label": "ParamTypes",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.111326059321884,
+      -5.3268360540322695
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:Path:138",
+    "label": "Path",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 14,
+      "fan_in": 1,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.72640177015439,
+      -0.7856104770237423
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:Query:224",
+    "label": "Query",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 13,
+      "fan_in": 1,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.708532556431229,
+      -0.7889668321007832
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:Security:776",
+    "label": "Security",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -4.573839446682356,
+      3.7660328638947194
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:141",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 14,
+      "fan_in": 68,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.314471879960969,
+      -0.5620675339180379
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:227",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 13,
+      "fan_in": 68,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.296225843639458,
+      -0.550859790490938
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:27",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 26,
+      "fan_in": 68,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.334146976438071,
+      -0.5616143166600159
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:311",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 16,
+      "fan_in": 68,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.320661648225831,
+      -0.5838558972603454
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:397",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 13,
+      "fan_in": 68,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.296225843639458,
+      -0.550859790490938
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:479",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 26,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.9059029601037984,
+      -0.8942816264564576
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:596",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 16,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.809909018873665,
+      -0.8316581014904191
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:680",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 16,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.834655035087256,
+      -0.8570601642967329
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:764",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 68,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.578936040618417,
+      2.300870969851309
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:777",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -4.390882549804005,
+      3.4865915295370353
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__repr__:134",
+    "label": "__repr__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 5,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.573125421558174,
+      1.6600124168943846
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__repr__:591",
+    "label": "__repr__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 5,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.573125421558174,
+      1.6600124168943846
+    ]
+  },
+  {
+    "id": "code:fastapi/params.py:__repr__:770",
+    "label": "__repr__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 5,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.136376125231058,
+      1.5482748983872554
+    ]
+  },
+  {
+    "id": "code:fastapi/responses.py:ORJSONResponse:35",
+    "label": "ORJSONResponse",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 14,
+      "fan_in": 0,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -3.3017484551645877,
+      2.4428555882850285
+    ]
+  },
+  {
+    "id": "code:fastapi/responses.py:UJSONResponse:22",
+    "label": "UJSONResponse",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 7,
+      "fan_in": 0,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -4.830818898029426,
+      1.8511545284121278
+    ]
+  },
+  {
+    "id": "code:fastapi/responses.py:render:30",
+    "label": "render",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 3,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.569343820900142,
+      -2.579146032293361
+    ]
+  },
+  {
+    "id": "code:fastapi/responses.py:render:43",
+    "label": "render",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 3,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.947082294329607,
+      1.9224978679510165
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:APIRoute:503",
+    "label": "APIRoute",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 66,
+      "fan_in": 1,
+      "fan_out": 10,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.361091419213722,
+      -0.9556375349164569
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:APIRouter:670",
+    "label": "APIRouter",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 1444,
+      "fan_in": 12,
+      "fan_out": 26,
+      "has_decorator": true,
+      "decorators": [
+        "router.get",
+        "router.websocket",
+        "users_router.get",
+        "router.get",
+        "router.put",
+        "router.post",
+        "router.delete",
+        "router.options",
+        "router.head",
+        "router.patch",
+        "router.trace",
+        "deprecated"
+      ]
+    },
+    "pca_coords": [
+      5.161855785369341,
+      -0.4719429483326593
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:APIWebSocketRoute:463",
+    "label": "APIWebSocketRoute",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 17,
+      "fan_in": 3,
+      "fan_out": 5,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.657531096448922,
+      -0.5155009885870822
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:__init__:464",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 12,
+      "fan_in": 68,
+      "fan_out": 4,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.673183911459112,
+      -0.5141445993962918
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:__init__:504",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 56,
+      "fan_in": 68,
+      "fan_out": 6,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.276029591792714,
+      -0.9332343236208275
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:__init__:697",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 109,
+      "fan_in": 68,
+      "fan_out": 6,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.900347862204102,
+      -0.5795667512515602
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:_merge_lifespan_context:201",
+    "label": "_merge_lifespan_context",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 20,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": true,
+      "decorators": [
+        "asynccontextmanager"
+      ]
+    },
+    "pca_coords": [
+      1.8159883099562735,
+      2.3387469215968273
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:_prepare_response_content:153",
+    "label": "_prepare_response_content",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 26,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.237451146233227,
+      -0.6943404198188401
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:add_api_route:956",
+    "label": "add_api_route",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 10,
+      "fan_in": 8,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.337493500664668,
+      -0.5150960837410159
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:add_api_websocket_route:1100",
+    "label": "add_api_websocket_route",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 8,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -0.4585584356033206,
+      2.724448285913237
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:api_route:1038",
+    "label": "api_route",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 11,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.321044344915923,
+      -0.6093005811730021
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:app:102",
+    "label": "app",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 23,
+      "fan_in": 9,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      2.2407430729917026,
+      1.610504563342858
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:app:137",
+    "label": "app",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 9,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -2.64041121199056,
+      2.9181123048464586
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:app:140",
+    "label": "app",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 2,
+      "fan_in": 9,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.6438536909690615,
+      1.6819007768282486
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:app:315",
+    "label": "app",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 58,
+      "fan_in": 9,
+      "fan_out": 7,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.458410196640307,
+      -0.7970375567369073
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:app:441",
+    "label": "app",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 10,
+      "fan_in": 9,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      4.4756422925316794,
+      1.5595610864723555
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:app:99",
+    "label": "app",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 23,
+      "fan_in": 9,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.310637985135777,
+      0.26397411179060865
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:1068",
+    "label": "decorator",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 7,
+      "fan_in": 21,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      9.341945298549312,
+      -1.1359091207862115
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:1180",
+    "label": "decorator",
+    "type": "Function",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 5,
+      "fan_in": 21,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.066219675645807,
+      1.880575361409184
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:1191",
+    "label": "decorator",
+    "type": "Function",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 7,
+      "fan_in": 21,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.015843638945657,
+      2.211128057834248
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:4510",
+    "label": "decorator",
+    "type": "Function",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 6,
+      "fan_in": 21,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.761031297990848,
+      -3.711034284883872
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:944",
+    "label": "decorator",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 7,
+      "fan_in": 21,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -3.2008115177872236,
+      3.615342345088636
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:delete:2582",
+    "label": "delete",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 143,
+      "fan_in": 3,
+      "fan_out": 7,
+      "has_decorator": true,
+      "decorators": [
+        "router.delete"
+      ]
+    },
+    "pca_coords": [
+      6.039931637331138,
+      -1.0320378352702866
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:get:1441",
+    "label": "get",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 143,
+      "fan_in": 46,
+      "fan_out": 7,
+      "has_decorator": true,
+      "decorators": [
+        "router.get"
+      ]
+    },
+    "pca_coords": [
+      6.055017126948585,
+      -1.026835975079453
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:get_request_handler:292",
+    "label": "get_request_handler",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 69,
+      "fan_in": 2,
+      "fan_out": 8,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.209239173250205,
+      -0.4758478359652984
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:get_route_handler:646",
+    "label": "get_route_handler",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 5,
+      "fan_in": 1,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      4.255730496581047,
+      1.9613289925005901
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:get_websocket_app:436",
+    "label": "get_websocket_app",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 10,
+      "fan_in": 2,
+      "fan_out": 4,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.779080917363103,
+      0.6700080921772287
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:head:3336",
+    "label": "head",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 144,
+      "fan_in": 3,
+      "fan_out": 7,
+      "has_decorator": true,
+      "decorators": [
+        "router.head"
+      ]
+    },
+    "pca_coords": [
+      6.035655500124417,
+      -1.038645511443422
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:include_router:1197",
+    "label": "include_router",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 98,
+      "fan_in": 12,
+      "fan_out": 11,
+      "has_decorator": true,
+      "decorators": [
+        "users_router.get"
+      ]
+    },
+    "pca_coords": [
+      6.165597938639477,
+      -0.7352711856264573
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:matches:496",
+    "label": "matches",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 6,
+      "fan_in": 3,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.745749582890114,
+      0.6484487507684238
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:matches:663",
+    "label": "matches",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 6,
+      "fan_in": 3,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.745749582890114,
+      0.6484487507684238
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:merged_lifespan:204",
+    "label": "merged_lifespan",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 12,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": true,
+      "decorators": [
+        "asynccontextmanager"
+      ]
+    },
+    "pca_coords": [
+      -2.198973443338748,
+      2.5616066212580244
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:on_event:4482",
+    "label": "on_event",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 25,
+      "fan_in": 3,
+      "fan_out": 2,
+      "has_decorator": true,
+      "decorators": [
+        "deprecated"
+      ]
+    },
+    "pca_coords": [
+      0.8780981185609703,
+      2.1810110816456607
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:options:2959",
+    "label": "options",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 143,
+      "fan_in": 3,
+      "fan_out": 7,
+      "has_decorator": true,
+      "decorators": [
+        "router.options"
+      ]
+    },
+    "pca_coords": [
+      6.032148212472629,
+      -1.0351041950616628
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:patch:3718",
+    "label": "patch",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 144,
+      "fan_in": 3,
+      "fan_out": 7,
+      "has_decorator": true,
+      "decorators": [
+        "router.patch"
+      ]
+    },
+    "pca_coords": [
+      6.042747067729508,
+      -1.0348756044481306
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:post:2200",
+    "label": "post",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 144,
+      "fan_in": 7,
+      "fan_out": 7,
+      "has_decorator": true,
+      "decorators": [
+        "router.post"
+      ]
+    },
+    "pca_coords": [
+      6.050352653012575,
+      -1.0257814794046143
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:put:1818",
+    "label": "put",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 144,
+      "fan_in": 3,
+      "fan_out": 7,
+      "has_decorator": true,
+      "decorators": [
+        "router.put"
+      ]
+    },
+    "pca_coords": [
+      6.043480317088076,
+      -1.0328140873170693
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:request_response:88",
+    "label": "request_response",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 31,
+      "fan_in": 1,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.9368851577783,
+      -0.7734525631572677
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:route:937",
+    "label": "route",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -0.3547220869975519,
+      2.4435240044702686
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:run_endpoint_function:279",
+    "label": "run_endpoint_function",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 7,
+      "fan_in": 2,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -3.7229258824595504,
+      3.7768158877213405
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:serialize_response:218",
+    "label": "serialize_response",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 28,
+      "fan_in": 2,
+      "fan_out": 5,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.928342317299614,
+      -0.3780639737246809
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:trace:4100",
+    "label": "trace",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 144,
+      "fan_in": 3,
+      "fan_out": 7,
+      "has_decorator": true,
+      "decorators": [
+        "router.trace"
+      ]
+    },
+    "pca_coords": [
+      6.025237991579436,
+      -1.036553125000721
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:websocket:1121",
+    "label": "websocket",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 21,
+      "fan_in": 4,
+      "fan_out": 7,
+      "has_decorator": true,
+      "decorators": [
+        "router.websocket"
+      ]
+    },
+    "pca_coords": [
+      5.547914698423415,
+      -0.6966425082558964
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:websocket_route:1188",
+    "label": "websocket_route",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 3,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.997094536504976,
+      2.002036252328088
+    ]
+  },
+  {
+    "id": "code:fastapi/routing.py:websocket_session:129",
+    "label": "websocket_session",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 9,
+      "fan_in": 2,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      0.8759968130245874,
+      2.3625638374299527
+    ]
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyBase:10",
+    "label": "APIKeyBase",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 6,
+      "fan_in": 1,
+      "fan_out": 3,
+      "has_decorator": true,
+      "decorators": [
+        "staticmethod"
+      ]
+    },
+    "pca_coords": [
+      -3.1599461529580104,
+      3.377233112230327
+    ]
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyCookie:202",
+    "label": "APIKeyCookie",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 20,
+      "fan_in": 0,
+      "fan_out": 8,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      5.052556153198362,
+      -0.5398164172874724
+    ]
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyHeader:114",
+    "label": "APIKeyHeader",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 20,
+      "fan_in": 0,
+      "fan_out": 8,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      5.027783898407366,
+      -0.5053573710705359
+    ]
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyQuery:22",
+    "label": "APIKeyQuery",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 20,
+      "fan_in": 0,
+      "fan_out": 8,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      4.907412406827087,
+      -0.47257789320493965
+    ]
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__call__:109",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 25,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.021513197097176,
+      -3.077369402756271
+    ]
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__call__:197",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 25,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.970435051451118,
+      -3.2353758477654453
+    ]
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__call__:285",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 25,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -7.920210484178012,
+      -3.16428052663007
+    ]
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__init__:146",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 11,
+      "fan_in": 68,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.447062229913836,
+      -0.7743546676957199
+    ]
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__init__:234",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 11,
+      "fan_in": 68,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.45011726682117,
+      -0.7803252699007901
+    ]
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__init__:54",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 11,
+      "fan_in": 68,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.772953058536099,
+      -1.0027910762571575
+    ]
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:check_api_key:11",
+    "label": "check_api_key",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 6,
+      "fan_in": 1,
+      "fan_out": 3,
+      "has_decorator": true,
+      "decorators": [
+        "staticmethod"
+      ]
+    },
+    "pca_coords": [
+      -2.9195723211707723,
+      3.0558463574254158
+    ]
+  },
+  {
+    "id": "code:fastapi/security/base.py:SecurityBase:3",
+    "label": "SecurityBase",
+    "type": "Class",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 1,
+      "fan_out": 0,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -9.185029448397614,
+      -3.2916908970987415
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPAuthorizationCredentials:28",
+    "label": "HTTPAuthorizationCredentials",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 10,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      2.4741192086736055,
+      1.27108355821813
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBase:68",
+    "label": "HTTPBase",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 17,
+      "fan_in": 2,
+      "fan_out": 6,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      3.667138455571707,
+      1.2809772007880196
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBasic:96",
+    "label": "HTTPBasic",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 50,
+      "fan_in": 0,
+      "fan_out": 9,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      5.538059788133188,
+      -0.49492319265748635
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBasicCredentials:15",
+    "label": "HTTPBasicCredentials",
+    "type": "Class",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 4,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.998011963430658,
+      2.1386216805838565
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBearer:219",
+    "label": "HTTPBearer",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 44,
+      "fan_in": 1,
+      "fan_out": 9,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      5.665915060594611,
+      -0.5397342430133135
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPDigest:323",
+    "label": "HTTPDigest",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 38,
+      "fan_in": 0,
+      "fan_out": 9,
+      "has_decorator": true,
+      "decorators": [
+        "app.get"
+      ]
+    },
+    "pca_coords": [
+      5.637939275317325,
+      -0.5911288046694723
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:186",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 26,
+      "fan_in": 25,
+      "fan_out": 4,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.753840911221106,
+      -0.1948684063432862
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:300",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 17,
+      "fan_in": 25,
+      "fan_out": 4,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      1.7238100509035716,
+      2.1530355198202784
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:402",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 17,
+      "fan_in": 25,
+      "fan_out": 4,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      1.7902478687805252,
+      2.1485731912168853
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:81",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 13,
+      "fan_in": 25,
+      "fan_out": 4,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -2.566602929544071,
+      3.129341298514162
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:129",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 11,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.836161663770065,
+      -0.9176473933789123
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:251",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 17,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.6322914532562,
+      -0.8226291275613231
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:355",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 11,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.432451477917948,
+      -0.76068525799759
+    ]
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:69",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -3.577345354013928,
+      3.4852273212658575
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2:307",
+    "label": "OAuth2",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 38,
+      "fan_in": 3,
+      "fan_out": 6,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.715704746472859,
+      -0.5799389551619175
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2AuthorizationCodeBearer:502",
+    "label": "OAuth2AuthorizationCodeBearer",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 37,
+      "fan_in": 0,
+      "fan_out": 7,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.350067954961573,
+      -0.9587883458740228
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2PasswordBearer:390",
+    "label": "OAuth2PasswordBearer",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 44,
+      "fan_in": 0,
+      "fan_out": 7,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.928817775291318,
+      -0.7879203183181896
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2PasswordRequestForm:15",
+    "label": "OAuth2PasswordRequestForm",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 100,
+      "fan_in": 0,
+      "fan_out": 5,
+      "has_decorator": true,
+      "decorators": [
+        "app.post"
+      ]
+    },
+    "pca_coords": [
+      5.7447649841646395,
+      -0.371175323771476
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2PasswordRequestFormStrict:151",
+    "label": "OAuth2PasswordRequestFormStrict",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 124,
+      "fan_in": 0,
+      "fan_out": 6,
+      "has_decorator": true,
+      "decorators": [
+        "app.post"
+      ]
+    },
+    "pca_coords": [
+      5.256070722648935,
+      -0.5544118071580485
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:SecurityScopes:612",
+    "label": "SecurityScopes",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.3652739128738105,
+      -0.46876523940065085
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__call__:378",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 25,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -3.9603512618151204,
+      3.312274750771375
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__call__:487",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 11,
+      "fan_in": 25,
+      "fan_out": 4,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -0.6705835724991651,
+      2.278815064524415
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__call__:597",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 11,
+      "fan_in": 25,
+      "fan_out": 4,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -0.22585379141291068,
+      2.337832371695766
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:215",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 32,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.850259009667302,
+      -1.0038799691800293
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:320",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 16,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.424429278657376,
+      -0.7705174297742647
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:399",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 22,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.270823968712149,
+      -0.6867908430647847
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:508",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 23,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.549934603665408,
+      -0.8679678804304932
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:60",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 41,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.617945690275775,
+      -0.8643453720113645
+    ]
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:625",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 3,
+      "fan_in": 68,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      1.6616737856867831,
+      1.752001336534855
+    ]
+  },
+  {
+    "id": "code:fastapi/security/open_id_connect_url.py:OpenIdConnect:10",
+    "label": "OpenIdConnect",
+    "type": "Class",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 25,
+      "fan_in": 1,
+      "fan_out": 6,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.018441937574422,
+      -1.030186465701301
+    ]
+  },
+  {
+    "id": "code:fastapi/security/open_id_connect_url.py:__call__:74",
+    "label": "__call__",
+    "type": "Method",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 25,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -3.9603512618151204,
+      3.312274750771375
+    ]
+  },
+  {
+    "id": "code:fastapi/security/open_id_connect_url.py:__init__:16",
+    "label": "__init__",
+    "type": "Method",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 16,
+      "fan_in": 68,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      5.570146835433936,
+      -0.8928837270445724
+    ]
+  },
+  {
+    "id": "code:fastapi/security/utils.py:get_authorization_scheme_param:3",
+    "label": "get_authorization_scheme_param",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 7,
+      "fan_in": 12,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -6.080061255945062,
+      2.3463228570122463
+    ]
+  },
+  {
+    "id": "code:fastapi/utils.py:create_cloned_field:108",
+    "label": "create_cloned_field",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 64,
+      "fan_in": 2,
+      "fan_out": 3,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      6.634282098976664,
+      -0.26761010315459716
+    ]
+  },
+  {
+    "id": "code:fastapi/utils.py:create_model_field:62",
+    "label": "create_model_field",
+    "type": "Function",
+    "cluster": 1,
+    "metrics": {
+      "cyclomatic_complexity": 28,
+      "fan_in": 3,
+      "fan_out": 2,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      7.51453287965938,
+      -0.659246235938791
+    ]
+  },
+  {
+    "id": "code:fastapi/utils.py:deep_dict_update:187",
+    "label": "deep_dict_update",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 10,
+      "fan_in": 1,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      0.8900629057237147,
+      2.5077521746730183
+    ]
+  },
+  {
+    "id": "code:fastapi/utils.py:generate_operation_id_for_path:164",
+    "label": "generate_operation_id_for_path",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 6,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -2.3115708270759394,
+      3.2244774940076955
+    ]
+  },
+  {
+    "id": "code:fastapi/utils.py:generate_unique_id:179",
+    "label": "generate_unique_id",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 4,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -5.474657719560773,
+      0.5584570155933153
+    ]
+  },
+  {
+    "id": "code:fastapi/utils.py:get_path_param_names:58",
+    "label": "get_path_param_names",
+    "type": "Function",
+    "cluster": 0,
+    "metrics": {
+      "cyclomatic_complexity": 1,
+      "fan_in": 0,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -8.126518925917438,
+      -3.8383335692282046
+    ]
+  },
+  {
+    "id": "code:fastapi/utils.py:get_value_or_default:205",
+    "label": "get_value_or_default",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 10,
+      "fan_in": 3,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -2.6205896906064714,
+      3.8650903367533993
+    ]
+  },
+  {
+    "id": "code:fastapi/utils.py:is_body_allowed_for_status_code:41",
+    "label": "is_body_allowed_for_status_code",
+    "type": "Function",
+    "cluster": 2,
+    "metrics": {
+      "cyclomatic_complexity": 8,
+      "fan_in": 6,
+      "fan_out": 1,
+      "has_decorator": false,
+      "decorators": []
+    },
+    "pca_coords": [
+      -2.4471069298020676,
+      2.3826870039102332
+    ]
+  }
+]
